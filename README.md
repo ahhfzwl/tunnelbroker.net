@@ -1,3 +1,4 @@
+Linux创建临时IPv6隧道
 ```
 ip tunnel add ipv6 mode sit remote 66.220.18.42 local 172.17.0.2 ttl 64
 ip link set ipv6 up
