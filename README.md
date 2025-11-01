@@ -5,3 +5,7 @@ ip link set ipv6 up
 ip addr add 2001:470:1f04:2b8::2/64 dev ipv6
 ip route add ::/0 dev ipv6
 ```
+Linux删除临时IPv6隧道
+```
+ip link del ipv6
+```
