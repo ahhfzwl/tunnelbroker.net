@@ -1,0 +1,42 @@
+ Ashburn, VA, US216.66.22.2
+ Calgary, AB, CA216.218.200.58
+ Chicago, IL, US184.105.253.14
+ Dallas, TX, US184.105.253.10
+ Denver, CO, US184.105.250.46
+ Fremont, CA, US72.52.104.74
+ Fremont, CA, US64.62.134.130
+ Honolulu, HI, US64.71.156.86
+ Kansas City, MO, US216.66.77.230
+ Los Angeles, CA, US66.220.18.42
+ Miami, FL, US209.51.161.58
+ New York, NY, US209.51.161.14
+ Phoenix, AZ, US66.220.7.82
+ Seattle, WA, US216.218.226.238
+ Toronto, ON, CA216.66.38.58
+ Winnipeg, MB, CA184.105.255.26
+Europe
+ Amsterdam, NLNot Available (Full)
+ Berlin, DE216.66.86.114
+ Budapest, HU216.66.87.14
+ Frankfurt, DE216.66.80.30
+ Lisbon, PT216.66.87.102
+ London, UK216.66.80.26
+ London, UK216.66.88.98
+ Paris, FR216.66.84.42
+ Prague, CZ216.66.86.122
+ Stockholm, SE216.66.80.90
+ Warsaw, PLNot Available (Full)
+ Zurich, CH216.66.80.98
+Asia
+ Hong Kong, HK216.218.221.6
+ Singapore, SG216.218.221.42
+ Tokyo, JPNot Available (Full)
+Africa
+ Djibouti City, DJ216.66.87.98
+ Johannesburg, ZA216.66.87.134
+South America
+ Bogota, CO216.66.64.154
+Oceania
+ Sydney, NSW, AU216.218.142.50
+Middle East
+ Dubai, AE216.66.90.30
