@@ -1,12 +1,11 @@
 #!/bin/bash
-
 URL="https://raw.githubusercontent.com/ahhfzwl/tunnelbroker.net/main/ip.txt"
 PING_COUNT=3
 PING_TIMEOUT=1
 CONCURRENCY=8
 TOP_N=5
 
-echo "1正在获取节点列表..."
+echo "2正在获取节点列表..."
 
 curl -fsSL "$URL" | awk '
 match($0, /([0-9]{1,3}\.){3}[0-9]{1,3}/) {
