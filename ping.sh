@@ -5,7 +5,7 @@ PING_TIMEOUT=1
 CONCURRENCY=8
 TOP_N=5
 
-echo "正在获取节点列表..."
+echo "5正在获取节点列表..."
 
 curl -fsSL "$URL" \
 | sed -n 's/^\(.*\)\([0-9]\{1,3\}\(\.[0-9]\{1,3\}\)\{3\}\)$/\1|\2/p' \
