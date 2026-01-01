@@ -5,18 +5,12 @@ PING_TIMEOUT=1
 CONCURRENCY=8
 TOP_N=5
 
-echo "2正在获取节点列表..."
+echo "正在获取节点列表..."
 
-curl -fsSL "$URL" | awk '
-match($0, /([0-9]{1,3}\.){3}[0-9]{1,3}/) {
-    ip = substr($0, RSTART, RLENGTH)
-    loc = $0
-    sub(ip, "", loc)
-    gsub(/[[:space:]]+$/, "", loc)
-    printf "%s|%s\0", loc, ip
-}
-' \
-| xargs -0 -P "$CONCURRENCY" -n 1 sh -c '
+curl -fsSL "$URL" \
+| sed -n 's/^\(.*\)\([0-9]\{1,3\}\(\.[0-9]\{1,3\}\)\{3\}\)$/\1|\2/p' \
+| tr '\n' '\0' \
+| xargs -0 -n 1 -P "$CONCURRENCY" sh -c '
 item="$1"
 loc="${item%|*}"
 ip="${item#*|}"
