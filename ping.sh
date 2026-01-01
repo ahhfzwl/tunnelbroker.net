@@ -3,7 +3,7 @@ URL="https://raw.githubusercontent.com/ahhfzwl/tunnelbroker.net/main/ip.txt"
 PING_COUNT=3
 PING_TIMEOUT=1
 CONCURRENCY=8
-TOP_N=5
+TOP_N=10
 
 echo "9正在获取节点列表..."
 
