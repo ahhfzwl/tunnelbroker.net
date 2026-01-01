@@ -1,3 +1,7 @@
+检查延迟：
+```
+curl https://raw.githubusercontent.com/ahhfzwl/tunnelbroker.net/main/ping.sh | sh
+```
 Linux创建临时IPv6隧道
 ```
 ip tunnel add ipv6 mode sit remote 72.52.104.74 local 172.17.0.2 ttl 64
